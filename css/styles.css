@@ -47,7 +47,7 @@ nav {
 .k-nav .k-nav-icon {
   display: flex;
   flex-direction: row;
-align-items: center;
+  align-items: center;
   gap: 10px;
   justify-content: space-between;
 }
@@ -172,33 +172,23 @@ align-items: center;
 .sidebar {
   top: 6rem;
 
+  display: flex;
 
+  flex-direction: column;
 
-display: flex;
-
-flex-direction: column;
-
-gap: 15px;
-padding: 1rem;
-
+  gap: 15px;
+  padding: 1rem;
 }
 
-.sidebar-option-center{
-
-display: flex;
-gap: 5px;
-
-}
-
-.k-radio-container{
-
+.sidebar-option-center {
   display: flex;
   gap: 5px;
-  
-
-
 }
 
+.k-radio-container {
+  display: flex;
+  gap: 5px;
+}
 
 .ecomm-cards {
   width: calc(100% - 25rem);
@@ -332,4 +322,29 @@ gap: 5px;
 
 #dummy2 {
   background-image: url(/assets/dummy2.jpg);
+}
+
+
+
+/* wishlist styles */
+
+
+/* //colors */
+
+.heart {
+  color: var(--red);
+}
+
+
+
+.wishlist-container {
+  padding: 10rem;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+
+  background-color: var(--primary-color-white);
 }
