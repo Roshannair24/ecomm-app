@@ -1,0 +1,335 @@
+/* css reset */
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  /* to set root to 10px */
+  font-size: 62.5%;
+}
+
+:root {
+  /* --primary-color-dark: #2d3748; */
+
+  --primary-color-white: #f7fafc;
+
+  --call-to-action: #2d3748;
+  --ascent-col: #e1c0b1;
+
+  --white-a: #ffffff;
+
+  --off-white-b: #e5e7eb;
+}
+
+/* navigation */
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+.k-nav {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--white-a);
+  padding: 1rem;
+  font-size: 2rem;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+
+  color: var(--call-to-action);
+}
+
+.k-nav .k-nav-icon {
+  display: flex;
+  flex-direction: row;
+align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.k-nav-icon .bx {
+  font-size: 3rem;
+}
+
+.badge-icon .k-online-info {
+  font-size: 1rem;
+}
+
+.k-input {
+  width: 40rem;
+}
+
+/* navigation */
+
+.banner-cardsCollection-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-container {
+  padding: 1rem;
+  height: 50rem;
+  width: 100%;
+}
+
+.banner {
+  height: 100%;
+  background-image: url(/assets/bannerPic3.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+  background-size: 30%;
+
+  padding: 1rem;
+  font-size: 3rem;
+
+  padding: 5rem;
+  border-radius: 8px;
+}
+.banner h1 {
+  width: 80rem;
+
+  color: var(--ascent-col);
+}
+
+.ascent {
+  color: var(--primary-color-white);
+}
+
+.cardsCollection {
+  padding: 1rem;
+
+  display: flex;
+
+  justify-content: space-between;
+}
+
+/* card */
+
+.k-card {
+  width: 49%;
+  height: 20rem;
+
+  background-color: var(--off-white-b);
+  padding: 1rem;
+
+  display: flex;
+
+  border-radius: 8px;
+
+  justify-content: space-around;
+
+  align-items: center;
+}
+
+.k-card-row {
+  flex-direction: row;
+}
+
+.pic {
+  background-color: #2d3748;
+
+  height: 100%;
+
+  width: 30rem;
+
+  border-radius: 8px;
+}
+
+.summer {
+  background-image: url(/assets/bannerpic2.jpg);
+
+  background-size: 100%;
+}
+
+.spring {
+  background-image: url(/assets/bannerPic4.jpg);
+
+  background-size: 100%;
+}
+
+.text {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+}
+
+/* card */
+
+/* product listing page */
+
+.ecomm-master-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sidebar {
+  top: 6rem;
+
+
+
+display: flex;
+
+flex-direction: column;
+
+gap: 15px;
+padding: 1rem;
+
+}
+
+.sidebar-option-center{
+
+display: flex;
+gap: 5px;
+
+}
+
+.k-radio-container{
+
+  display: flex;
+  gap: 5px;
+  
+
+
+}
+
+
+.ecomm-cards {
+  width: calc(100% - 25rem);
+}
+
+/* product listing page */
+
+/* input range slider */
+.k-input-range-mastercontainer {
+}
+
+.k-range {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.k-range-content {
+  display: flex;
+
+  width: 20rem;
+  justify-content: space-between;
+}
+
+.k-range-input-holder {
+  display: flex;
+
+  justify-content: center;
+}
+
+.k-range-input-holder input {
+  width: 20rem;
+}
+
+/* input range slider */
+
+/* ecommm cards container */
+
+.ecomm-heading {
+  padding: 1rem;
+  display: flex;
+
+  gap: 10px;
+  align-items: baseline;
+
+  flex-direction: row;
+}
+
+/* ecommm cards container */
+
+/* k-card */
+/* card-basic flex-div flex-div-direction-col background-primary box-shadow border-radius-all-8 color-primary-color-dark */
+
+.yo {
+  background-color: #2d3748;
+}
+.k-card {
+  display: flex;
+
+  width: 350px;
+
+  flex-direction: column;
+
+  padding: 0;
+  background-color: red;
+  flex-grow: 1;
+}
+
+/* k-card */
+
+.ecomm-cards {
+  background-color: var(--off-white-b);
+  padding-top: 6rem;
+}
+
+.ecomm-cards-container {
+  display: flex;
+
+  background-color: var(--off-white-b);
+  width: 100%;
+
+  justify-content: space-evenly;
+  padding: 2rem;
+
+  gap: 2rem;
+
+  flex-wrap: wrap;
+}
+
+.k-card-basic-top {
+  width: 100%;
+  background-color: aqua;
+  height: 20rem;
+}
+
+.k-card-basic-bot {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.k-card-basic-bot p {
+  width: 100%;
+}
+
+#Gold-Chariot {
+  background-image: url(/assets/bannerPic4.jpg);
+}
+
+#silver-knife {
+  background-image: url(/assets/silverknife.jpg);
+
+  background-position: 50%;
+}
+
+#rangeman {
+  background-image: url(/assets/rangeman.jpg);
+
+  background-position: 60%;
+}
+
+#titan {
+  background-image: url(/assets/titan.jpg);
+  background-position: 50%;
+}
+
+#Dummy1 {
+  background-image: url(/assets/dummy1.jpg);
+}
+
+#dummy2 {
+  background-image: url(/assets/dummy2.jpg);
+}

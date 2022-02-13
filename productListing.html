@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=EB+Garamond:wght@800&family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://kundalini-ui.netlify.app/css/styles.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="k-nav">
+      <h1>Iconic</h1>
+
+      <input
+        class="k-input"
+        type="text"
+        placeholder="Search for your watch here.."
+      />
+
+      <div class="k-nav-icon">
+        <div>
+          <p class="font-bold">Login</p>
+        </div>
+
+        <p><i class="bx bx-heart"></i></p>
+
+        <div class="badge-icon">
+          <div class="k-badge">
+            <div class="k-online-info">99+</div>
+          </div>
+
+          <i class="bx bx-cart"></i>
+        </div>
+      </div>
+    </nav>
+
+    <div class="sidebar">
+      <p class="font-bold">Filters</p>
+
+      <div class="k-input-range-mastercontainer">
+        <p class="font-bold">price</p>
+
+        <div class="k-range">
+          <div class="k-range-content">
+            <p>100</p>
+            <p>150</p>
+
+            <p>200</p>
+          </div>
+
+          <div class="k-range-input-holder">
+            <input
+              type="range"
+              id="points"
+              name="points"
+              step="25"
+              min="50"
+              max="200"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="k-category-mastercontainer">
+        <p class="font-bold">Category</p>
+        <div class="k-checkbox-holder">
+          <div class="sidebar-option-center">
+            <input id="men-watches" type="checkbox" />
+
+            <label for="men-watches">Mens watches</label>
+          </div>
+
+          <div class="sidebar-option-center">
+            <input id="women-watches" type="checkbox" />
+
+            <label for="women-watches">womens watches</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="k-rating-mastercontainer">
+        <p class="font-bold">Rating</p>
+
+        <div class="k-radio-container">
+          <input id="4-stars-and-above" type="radio" />
+
+          <label for="4-stars-and-above">4 stars and above</label>
+        </div>
+
+        <div class="k-radio-container">
+          <input id="3-stars-and-above" type="radio" />
+
+          <label for="3-stars-and-above">3 stars and above</label>
+        </div>
+
+        <div class="k-radio-container">
+          <input id="2-stars-and-above" type="radio" />
+
+          <label for="2-stars-and-above">2 stars and above</label>
+        </div>
+
+        <div class="k-radio-container">
+          <input id="1-stars-and-above" type="radio" />
+
+          <label for="1-stars-and-above">1 stars and above</label>
+        </div>
+      </div>
+
+      <div class="k-rating-mastercontainer">
+        <p class="font-bold">Sort by</p>
+
+        <div class="k-radio-container">
+          <input id="lowtohigh" type="radio" />
+
+          <label for="lowtohigh">low to high</label>
+        </div>
+
+        <div class="k-radio-container">
+          <input id="high to low" type="radio" />
+
+          <label for="high to low">high to low</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="ecomm-master-container">
+      <div class="ecomm-cards">
+        <div class="ecomm-heading">
+          <p class="font-bold">Showing all watches</p>
+          <small>Showing 20 watches</small>
+        </div>
+
+        <div class="ecomm-cards-container">
+          <div class="div-transparent">
+            <div
+              id="card-basic"
+              class="card-basic flex-div flex-div-direction-col background-primary box-shadow border-radius-all-8 color-primary-color-dark"
+            >
+              <div
+                id="Gold-Chariot"
+                class="card-basic-top background-Img height-50 border-radius-top-8"
+                style="background-color: blue"
+              ></div>
+
+              <div class="card-basic-bot">
+                <div class="pad-1">
+                  <h2>Golden Chariot</h2>
+
+                  <h3>₹20,000</h3>
+
+                  <p>
+                    Think luxury? Think Gold? the golden chariot is the way to
+                    go..
+                  </p>
+                </div>
+
+                <div class="flex-div flex-div-direction-row">
+                  <div
+                    class="flex-div flex-div-direction-row gap-20 pad-1 border-radius-all-8 flex-grow flex-end"
+                  >
+                    <i class="bx bx-heart font-3"></i>
+
+                    <i class="bx bx-cart font-3"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="div-transparent">
+            <div
+              id="card-basic"
+              class="card-basic flex-div flex-div-direction-col background-primary box-shadow border-radius-all-8 color-primary-color-dark"
+            >
+              <div
+                id="silver-knife"
+                class="card-basic-top background-Img height-50 border-radius-top-8"
+                style="background-color: blue"
+              ></div>
+
+              <div class="card-basic-bot">
+                <div class="pad-1">
+                  <h2>Silver Knife</h2>
+
+                  <h3>₹20,000</h3>
+
+                  <p>
+                    Shiny and sophisticated? Get the silver knife to pierce
+                    through her heart..
+                  </p>
+                </div>
+
+                <div class="flex-div flex-div-direction-row">
+                  <div
+                    class="flex-div flex-div-direction-row gap-20 pad-1 border-radius-all-8 flex-grow flex-end"
+                  >
+                    <i class="bx bx-heart font-3"></i>
+                    <i class="bx bx-cart font-3"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="div-transparent">
+            <div
+              id="card-basic"
+              class="card-basic flex-div flex-div-direction-col background-primary box-shadow border-radius-all-8 color-primary-color-dark"
+            >
+              <div
+                id="rangeman"
+                class="card-basic-top background-Img height-50 border-radius-top-8"
+                style="background-color: blue"
+              ></div>
+
+              <div class="card-basic-bot">
+                <div class="pad-1">
+                  <h2>Rangeman</h2>
+
+                  <h3>₹18,000</h3>
+
+                  <p>
+                    Real Winners win ,for a long long time, just like the
+                    Rangeman
+                  </p>
+                </div>
+
+                <div class="flex-div flex-div-direction-row">
+                  <div
+                    class="flex-div flex-div-direction-row gap-20 pad-1 border-radius-all-8 flex-grow flex-end"
+                  >
+                    <i class="bx bx-heart font-3"></i>
+                    <i class="bx bx-cart font-3"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="div-transparent">
+            <div
+              id="card-basic"
+              class="card-basic flex-div flex-div-direction-col background-primary box-shadow border-radius-all-8 color-primary-color-dark"
+            >
+              <div
+                id="titan"
+                class="card-basic-top background-Img height-50 border-radius-top-8"
+                style="background-color: blue"
+              ></div>
+
+              <div class="card-basic-bot">
+                <div class="pad-1">
+                  <h2>Defence of the titan</h2>
+
+                  <h3>₹20,000</h3>
+
+                  <p>
+                    Whatever life throws at you, you shall be defended by the
+                    Titan...
+                  </p>
+                </div>
+
+                <div class="flex-div flex-div-direction-row">
+                  <div
+                    class="flex-div flex-div-direction-row gap-20 pad-1 border-radius-all-8 flex-grow flex-end"
+                  >
+                    <i class="bx bx-heart font-3"></i>
+                    <i class="bx bx-cart font-3"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="div-transparent">
+            <div
+              id="card-basic"
+              class="card-basic flex-div flex-div-direction-col background-primary box-shadow border-radius-all-8 color-primary-color-dark"
+            >
+              <div
+                id="Dummy1"
+                class="card-basic-top background-Img height-50 border-radius-top-8"
+                style="background-color: blue"
+              ></div>
+
+              <div class="card-basic-bot">
+                <div class="pad-1">
+                  <h2>Dummy1</h2>
+
+                  <h3>₹20,000</h3>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur, nec lobortis
+                    arcu...
+                  </p>
+                </div>
+
+                <div class="flex-div flex-div-direction-row">
+                  <div
+                    class="flex-div flex-div-direction-row gap-20 pad-1 border-radius-all-8 flex-grow flex-end"
+                  >
+                    <i class="bx bx-heart font-3"></i>
+
+                    <i class="bx bx-cart font-3"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="div-transparent">
+            <div
+              id="card-basic"
+              class="card-basic flex-div flex-div-direction-col background-primary box-shadow border-radius-all-8 color-primary-color-dark"
+            >
+              <div
+                id="dummy2"
+                class="card-basic-top background-Img height-50 border-radius-top-8"
+                style="background-color: blue"
+              ></div>
+
+              <div class="card-basic-bot">
+                <div class="pad-1">
+                  <h2>Dummy2</h2>
+
+                  <h3>₹20,000</h3>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur , nec lobortis
+                    arcu..
+                  </p>
+                </div>
+
+                <div class="flex-div flex-div-direction-row">
+                  <div
+                    class="flex-div flex-div-direction-row gap-20 pad-1 border-radius-all-8 flex-grow flex-end"
+                  >
+                    <i class="bx bx-heart font-3"></i>
+                    <i class="bx bx-cart font-3"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
