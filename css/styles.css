@@ -591,6 +591,46 @@ nav .bx-heart:hover {
     background-size: 150%;
     background-position: 40%;
   }
+
+  .sidebar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sidebar .k-sidebar-subsections {
+    display: none;
+  }
+
+  .ecomm-master-container {
+    display: flex;
+
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .ecomm-master-container .ecomm-cards {
+    display: flex;
+
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ecomm-master-container .ecomm-cards .ecomm-cards-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .ecomm-heading {
+    display: none;
+  }
+
+  .div-transparent {
+    transform: scale(0.7);
+  }
 }
 
 /* @media screen and (max-width: 750px) {
