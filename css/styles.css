@@ -80,11 +80,11 @@ nav {
 
 .banner {
   height: 100%;
-  background-image: url(/assets/bannerPic3.jpg);
+  background-image: url(/assets/bannerPic5.jpg);
   background-color: black;
   background-repeat: no-repeat;
-  background-position: 70% 50%;
-  background-size: 30%;
+  background-position: 90% 100% ;
+  background-size: 50%;
 
   padding: 1rem;
   font-size: 3rem;
