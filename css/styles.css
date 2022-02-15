@@ -662,6 +662,14 @@ nav .bx-heart:hover {
 
     flex-direction: column;
   }
+
+  .form-master-container {
+    display: flex;
+
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+  }
 }
 
 /* @media screen and (max-width: 750px) {
