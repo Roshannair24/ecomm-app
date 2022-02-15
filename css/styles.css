@@ -34,7 +34,7 @@ nav {
 .k-nav {
   display: flex;
   flex-direction: row;
-  background-color: var(--white-a);
+  background-color: var(--primary-color-white);
   padding: 1rem;
   font-size: 2rem;
   justify-content: space-between;
@@ -64,6 +64,10 @@ nav {
   width: 40rem;
 }
 
+.k-nav .k-nav-icon .bx-menu {
+  display: none;
+}
+
 /* navigation */
 
 .banner-cardsCollection-container {
@@ -83,7 +87,7 @@ nav {
   background-image: url(/assets/bannerPic5.jpg);
   background-color: black;
   background-repeat: no-repeat;
-  background-position: 90% 100% ;
+  background-position: 90% 100%;
   background-size: 50%;
 
   padding: 1rem;
@@ -98,6 +102,29 @@ nav {
   color: var(--ascent-col);
 }
 
+.banner a {
+  background-color: rgba(23, 108, 184, 0);
+
+  color: var(--ascent-col);
+
+  position: relative;
+
+  display: inline-flex;
+
+  bottom: -15rem;
+}
+.banner a:hover {
+  color: #2d3748;
+  background-color: #f3de8a;
+  transition: all 0.5s ease;
+}
+
+.banner a:hover h2 {
+  color: #2d3748;
+  padding: 1rem;
+  transition: all 0.5s ease;
+}
+
 .ascent {
   color: var(--primary-color-white);
 }
@@ -107,7 +134,7 @@ nav {
 
   display: flex;
 
-gap: 5px;
+  gap: 5px;
   /* justify-content: space-between;  */
 }
 
@@ -116,7 +143,7 @@ gap: 5px;
 .homepage .k-card {
   /* width: 25rem; */
   height: 20rem;
-background-color: red;
+  background-color: red;
   background-color: var(--off-white-b);
   padding: 1rem;
 
@@ -505,16 +532,69 @@ background-color: red;
 
 /* anchor */
 
-a{
-
-color: var(--call-to-action);
+a {
+  color: var(--call-to-action);
 
   text-decoration: none;
 }
 
-
-nav .bx-heart:hover{
-
-color:var(--red);
-
+nav .bx-heart:hover {
+  color: var(--red);
 }
+
+@media only screen and (max-width: 768px) {
+  .homepage .k-card {
+    width: 100%;
+  }
+
+  .banner-cardsCollection-containe {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardsCollection {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+  }
+
+  .banner h1 {
+    font-size: 3rem;
+
+    width: 100%;
+  }
+
+  .k-nav .k-input {
+    display: none;
+  }
+
+  .k-nav-icon a {
+    display: none;
+  }
+
+  .k-nav .k-nav-icon .bx-menu {
+    display: inline-block;
+    color: var(--call-to-action);
+  }
+
+  .summer {
+    background-image: url(/assets/bannerpic2.jpg);
+    background-size: 150%;
+    background-position: 40%;
+  }
+
+  .spring {
+    background-image: url(/assets/bannerPic4.jpg);
+
+    background-size: 150%;
+    background-position: 40%;
+  }
+}
+
+/* @media screen and (max-width: 750px) {
+  #yooo {
+    background-color: blue;
+  }
+} */
