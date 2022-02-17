@@ -631,6 +631,27 @@ nav .bx-heart:hover {
   .div-transparent {
     transform: scale(0.7);
   }
+
+  .wishlist-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body {
+    z-index: 0;
+  }
+
+  .wishlist-container {
+    z-index: 1;
+  }
+
+  .k-nav {
+    z-index: 2;
+  }
 }
 
 /* @media screen and (max-width: 750px) {
