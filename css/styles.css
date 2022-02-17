@@ -652,6 +652,16 @@ nav .bx-heart:hover {
   .k-nav {
     z-index: 2;
   }
+
+  .cart-card-container {
+    padding-top: 30rem;
+  }
+
+  .both-cards {
+    display: flex;
+
+    flex-direction: column;
+  }
 }
 
 /* @media screen and (max-width: 750px) {
