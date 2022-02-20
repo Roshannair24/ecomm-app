@@ -211,9 +211,26 @@ nav {
   padding: 1rem;
 }
 
+.sidebar .heading-sidebar {
+  display: flex;
+}
+
 .sidebar-option-center {
   display: flex;
   gap: 5px;
+}
+
+.k-sidebar-subsections {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  padding: 0;
+}
+.k-category-mastercontainer .k-checkbox-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .k-radio-container {
@@ -231,28 +248,22 @@ nav {
 .k-input-range-mastercontainer {
 }
 
-.k-range {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.range-ecomm #slider {
+  background-color: var(--primary-color-white);
+  border-color: var(--call-to-action);
+  border-style: solid;
+
+  border-width: 2px;
 }
 
-.k-range-content {
-  display: flex;
+.range-ecomm #slider::-webkit-slider-thumb {
+  background-color: var(--primary-color-white);
 
-  width: 20rem;
-  justify-content: space-between;
+  border-color: var(--call-to-action);
 }
 
-.k-range-input-holder {
-  display: flex;
-
-  justify-content: center;
-}
-
-.k-range-input-holder input {
-  width: 20rem;
+.range-ecomm #slider::-webkit-slider-thumb:hover {
+  background-color: var(--call-to-action);
 }
 
 /* input range slider */
@@ -270,9 +281,6 @@ nav {
 }
 
 /* ecommm cards container */
-
-/* k-card */
-/* card-basic flex-div flex-div-direction-col background-primary box-shadow border-radius-all-8 color-primary-color-dark */
 
 .yo {
   background-color: #2d3748;
@@ -324,6 +332,11 @@ nav {
 
 .k-card-basic-bot p {
   width: 100%;
+}
+
+.card-basic .bx-heart:hover {
+  color: var(--red);
+  transition: all 0.5s ease;
 }
 
 #Gold-Chariot {
@@ -547,7 +560,7 @@ nav .bx-heart:hover {
     width: 100%;
   }
 
-  .banner-cardsCollection-containe {
+  .banner-cardsCollection-container {
     display: flex;
     flex-direction: column;
   }
@@ -611,7 +624,6 @@ nav .bx-heart:hover {
 
   .ecomm-master-container .ecomm-cards {
     display: flex;
-
     flex-direction: column;
     width: 100%;
   }
@@ -629,7 +641,7 @@ nav .bx-heart:hover {
   }
 
   .div-transparent {
-    transform: scale(0.7);
+    transform: scale(0.9);
   }
 
   .wishlist-container {
